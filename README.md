@@ -216,6 +216,9 @@ React Native wrapper for Intercom.io. Based off of [intercom-cordova](https://gi
 
     Note that calling `Intercom.registerIdentifiedUser({ userId: 'Bob' })` (or `Intercom.registerUnidentifiedUser()`) is required before using methods which require that Intercom know the current user… such as `Intercom.displayMessageComposer()`, etc.
 
+# Migrating to v7
+Make sure to follow this: https://developers.intercom.com/installing-intercom/docs/migrating-to-v710
+
 # Usage
 
 ### Import or Require the module
